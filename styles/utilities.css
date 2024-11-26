@@ -49,7 +49,7 @@
 }
 
 .flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, var(--size-1));
+  margin-top: var(--flow-spacer, var(--size-2));
 }
 
 .border-white {

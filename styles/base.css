@@ -24,7 +24,7 @@ svg {
 body {
   line-height: 1.5;
   font-family: var(--font-family-base);
-  font-size: var(--size-0);
+  font-size: var(--size-1);
   color: var(--clr-neutral-000);
   background: var(--clr-bg-400);
 }

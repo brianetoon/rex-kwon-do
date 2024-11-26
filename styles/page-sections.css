@@ -9,7 +9,7 @@
   margin-inline: auto;
 }
 
-@media (min-width: 521px) {
+@media (min-width: 621px) {
   .hero {
     grid-template-columns: 2fr 3fr;
     align-items: center;
@@ -31,11 +31,11 @@
 }
 
 .discipline__image img {
-  width: 12rem;
+  width: 16rem;
   margin-inline: auto;
 }
 
-@media (min-width: 521px) {
+@media (min-width: 621px) {
   .discipline {
     grid-template-columns: 1fr 2fr;
     align-items: center;

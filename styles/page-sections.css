@@ -5,11 +5,11 @@
 }
 
 .hero__image {
-  width: 15rem;
+  width: 18rem;
   margin-inline: auto;
 }
 
-@media (min-width: 621px) {
+@media (min-width: 720px) {
   .hero {
     grid-template-columns: 2fr 3fr;
     align-items: center;

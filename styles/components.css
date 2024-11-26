@@ -25,7 +25,7 @@
 .primary-nav__list {
   display: flex;
   list-style-type: none;
-  gap: var(--size-0);
+  gap: var(--size-1);
   justify-content: center;
 }
 
@@ -59,7 +59,7 @@
   display: none;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 660px) {
   .primary-header {
     width: 100%;
     left: 0;

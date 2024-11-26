@@ -121,6 +121,9 @@
 .fs-5 {
   font-size: var(--size-5);
 }
+.fs-6 {
+  font-size: var(--size-6);
+}
 
 /* Colors */
 .clr-neutral-000 {

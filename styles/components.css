@@ -35,7 +35,7 @@
   text-transform: uppercase;
   font-weight: bold;
   font-size: var(--size--1);
-  
+  cursor: pointer;
   position: relative;
   display: inline-block;
 }

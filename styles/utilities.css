@@ -1,5 +1,5 @@
 .page-content {
-  margin-top: 5rem;
+  margin-block: 5rem;
 }
 
 .section-padding {
@@ -29,8 +29,24 @@
   font-weight: bold;
 }
 
+.fs-italic {
+  font-style: italic;
+}
+
 .border-radius-1 {
   border-radius: 0.5rem;
+}
+
+.visually-hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: auto;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;
 }
 
 .flow > *:where(:not(:first-child)) {
@@ -45,40 +61,40 @@
   --text-shadow-color: var(--clr-neutral-900);
 
   text-shadow: 
-  -2px 2px 0 var(--text-shadow-color),
-  2px 2px 0 var(--text-shadow-color),
-  2px -2px 0 var(--text-shadow-color),
-  -2px -2px 0 var(--text-shadow-color);
+    -1px 1px 0 var(--text-shadow-color),
+    1px 1px 0 var(--text-shadow-color),
+    1px -1px 0 var(--text-shadow-color),
+    -1px -1px 0 var(--text-shadow-color);
 }
 
 .text-outline-white {
   --text-shadow-color: var(--clr-neutral-000);
 
   text-shadow: 
-  -2px 2px 0 var(--text-shadow-color),
-  2px 2px 0 var(--text-shadow-color),
-  2px -2px 0 var(--text-shadow-color),
-  -2px -2px 0 var(--text-shadow-color);
+    -1px 1px 0 var(--text-shadow-color),
+    1px 1px 0 var(--text-shadow-color),
+    1px -1px 0 var(--text-shadow-color),
+    -1px -1px 0 var(--text-shadow-color);
 }
 
 .text-outline-primary {
   --text-shadow-color: var(--clr-primary-400);
 
   text-shadow: 
-  -2px 2px 0 var(--text-shadow-color),
-  2px 2px 0 var(--text-shadow-color),
-  2px -2px 0 var(--text-shadow-color),
-  -2px -2px 0 var(--text-shadow-color);
+    -1px 1px 0 var(--text-shadow-color),
+    1px 1px 0 var(--text-shadow-color),
+    1px -1px 0 var(--text-shadow-color),
+    -1px -1px 0 var(--text-shadow-color);
 }
 
 .text-outline-secondary {
   --text-shadow-color: var(--clr-secondary-400);
 
   text-shadow: 
-  -2px 2px 0 var(--text-shadow-color),
-  2px 2px 0 var(--text-shadow-color),
-  2px -2px 0 var(--text-shadow-color),
-  -2px -2px 0 var(--text-shadow-color);
+    -2px 2px 0 var(--text-shadow-color),
+    2px 2px 0 var(--text-shadow-color),
+    2px -2px 0 var(--text-shadow-color),
+    -2px -2px 0 var(--text-shadow-color);
 }
 
 /* Font Sizes */

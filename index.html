@@ -61,8 +61,8 @@
             Rex Kwon Do <br> Martial Arts Academy
           </h1>
           <div>
-            <p>"Hey, YOU! Tired of flyin solo?</p>
-            <p>Sign up for Rex Kwon Do today!"</p>
+            <p class="fs-italic">"Hey, YOU! Tired of flyin solo?</p>
+            <p class="fs-italic">Sign up for Rex Kwon Do today!"</p>
           </div>
           <a class="btn btn-primary" href="#sign-up">Sign Up</a>
         </div>
@@ -91,7 +91,9 @@
               >
             </div>
             <div class="discipline__description flow">
-              <h3 class="accent-text text-outline-white fs-3 clr-secondary-400">Tae Kwon Do</h3>
+              <h3 class="discipline__title | accent-text text-outline-white fs-3 clr-secondary-400">
+                Tae Kwon Do
+              </h3>
               <p>
                 Tae Kwon Do is a Korean martial art known for its emphasis on high, fast kicks, dynamic movements, and disciplined training. It combines self-defense, sport, and philosophy, focusing on principles like courtesy, integrity, perseverance, self-control, and indomitable spirit.
               </p>
@@ -106,7 +108,9 @@
               >
             </div>
             <div class="discipline__description flow">
-              <h3 class="accent-text text-outline-white fs-3 clr-secondary-400">Ninjutsu</h3>
+              <h3 class="discipline__title | accent-text text-outline-white fs-3 clr-secondary-400">
+                Ninjutsu
+              </h3>
               <p>
                 Ninjutsu is a Japanese martial art focused on stealth, strategy, and survival techniques. Traditionally associated with the ninja, it emphasizes agility, evasion, unconventional tactics, and self-defense, blending physical skills with mental discipline and adaptability.
               </p>
@@ -121,7 +125,9 @@
               >
             </div>
             <div class="discipline__description flow">
-              <h3 class="accent-text text-outline-white fs-3 clr-secondary-400">Copoeira</h3>
+              <h3 class="discipline__title | accent-text text-outline-white fs-3 clr-secondary-400">
+                Copoeira
+              </h3>
               <p>
                 Capoeira is an Afro-Brazilian martial art that combines acrobatics, dance, music, and combat techniques. Known for its fluid, rhythmic movements and improvisation, it emphasizes agility, flexibility, and cultural expression through a blend of physical and musical interaction.
               </p>
@@ -136,7 +142,9 @@
               >
             </div>
             <div class="discipline__description flow">
-              <h3 class="accent-text text-outline-white fs-3 clr-secondary-400">Akido</h3>
+              <h3 class="discipline__title | accent-text text-outline-white fs-3 clr-secondary-400">
+                Akido
+              </h3>
               <p>
                 Aikido is a Japanese martial art focused on harmonizing with an opponent's energy to neutralize attacks. It emphasizes fluid movements, joint locks, and throws, promoting self-defense, balance, and non-aggressive conflict resolution.
               </p>
@@ -147,19 +155,76 @@
       </div>
     </section>
 
+    <!-- Testimonials -->
+     <section class="section-padding">
+      <div class="container flow">
+        <h2 class="accent-text text-outline-white fs-4 clr-primary-400 text-center">
+          Why Rex Kwon Do?
+        </h2>
+        <p class="text-content">
+          Why settle for ordinary when you can master the art of Rex Kwon Do? With our unique blend of powerful techniques, unbeatable confidence, and signature flag pants, you'll not only learn to fight— you'll learn to conquer any challenge life throws your way. Don't just take our word for it...
+        </p>
+        <h3 class="accent-text text-outline-white fs-3 clr-secondary-400 text-center">
+          What other people are saying
+        </h3>
+        <div class="testimonials">
+          <div class="testimonial | text-center flow">
+            <img 
+              class="testimonial__avatar | mx-auto border-white"
+              src="./assets/images/nuck-chorris.png" 
+              alt="A picture of Nuck Chorris" 
+            >
+            <h4 class="testimonial__name | accent-text text-outline-black fs-2 clr-neutral-000">
+              Nuck Chorris
+            </h4>
+            <p class="testimonial__message fs-italic">
+              "In Rex Kwon Do, we don’t dodge punches—we intimidate them into missing. Remember, the pants don’t make the fighter, but they sure make him unstoppable."
+            </p>
+          </div>
+
+          <div class="testimonial | text-center flow">
+            <img 
+              class="testimonial__avatar | mx-auto border-white"
+              src="./assets/images/chakie-jan.png" 
+              alt="A picture of Chackie Jan" 
+            >
+            <h4 class="testimonial__name | accent-text text-outline-black fs-2 clr-neutral-000 text-center">
+              Chackie Jan
+            </h4>
+            <p class="testimonial__message fs-italic">
+              "Rex Kwon Do isn’t just about punches and kicks—it’s about turning everything around you into a weapon. If you’re wearing flag pants, even those can be part of the fight!"
+            </p>
+          </div>
+
+          <div class="testimonial | text-center flow">
+            <img 
+              class="testimonial__avatar | mx-auto border-white"
+              src="./assets/images/luce-bree.png" 
+              alt="A picture of Luce Bree" 
+            >
+            <h4 class="testimonial__name | accent-text text-outline-black fs-2 clr-neutral-000">
+              Luce Bree
+            </h4>
+            <p class="testimonial__message fs-italic">
+              "Rex Kwon Do is not in the fists or feet—it is in the spirit. Strike with confidence, move with purpose, and never forget to wear the American flag pants."
+            </p>
+          </div>
+        </div>
+      </div>
+     </section>
+
     <!-- CTA Section -->
     <section class="cta section-padding">
       <div class="container flow text-center">
         <h2 class="accent-text text-outline-white fs-4 clr-primary-400 text-center">
           Are you ready to join Rex Kwon Do?
         </h2>
-        <p>Don't just sit around and do nothing like this dweeb...</p>
+        <p>Raise your hand if you're ready to join!</p>
         <img 
           class="cta__image border-radius-1"
           src="./assets/images/napoleon.gif" 
           alt="A gif image of Napoleon Dynamite waving his left hand"
         >
-        <p>Join the buddy system and sign up for Rex Kwon Do today!</p>
 
         <!-- Sign up Form -->
         <form class="form flow border-radius-1" action="#" id="sign-up">
@@ -173,10 +238,10 @@
             <input type="text" name="name" placeholder="Your email" required>
           </label>  
           <select id="skill" name="skill" required>
-            <option value="" disabled selected>-- Select skill level --</option>
+            <option value="" disabled selected>Select skill level</option>
             <option value="beginner">Beginner</option>
             <option value="intermediate">Intermediate</option>
-            <option value="Advanced">Advanced</option>
+            <option value="advanced">Advanced</option>
             <option value="not sure">Not Sure</option>
           </select>
           <button class="form__submit btn btn-primary">Submit</button>

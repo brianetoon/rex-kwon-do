@@ -1,9 +1,11 @@
 :root {
-  /* --clr-primary-400: rgb(125,167,217); */
 
   --clr-bg-400: hsl(213, 54.8%, 47%);
-  --clr-bg-200: hsl(213, 54.8%, 68%);
+
+  --clr-primary-500:  hsl(227, 60%, 25%);
   --clr-primary-400:  hsl(227, 60%, 33%);
+  --clr-primary-300:  hsl(227, 60%, 33%);
+
   --clr-secondary-400: hsl(0, 87.5%, 59%);
 
   --clr-neutral-1000: hsl(0, 0%, 0%);

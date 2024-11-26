@@ -50,7 +50,7 @@
 .cta__image {
   margin-inline: auto;
   border: 2px solid var(--clr-neutral-000);
-  width: 34rem;
+  width: 40rem;
 }
 
 /* Testimonials */
@@ -58,7 +58,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: var(--size-2);
+  gap: var(--size-3);
 }
 
 .testimonial {
@@ -80,7 +80,7 @@
 
 /* Lessons */
 .lessons__video {
-  max-width: 560px;
+  max-width: 50rem;
   overflow: hidden;
   aspect-ratio: 16 / 9;
 }
@@ -93,5 +93,5 @@
 
 /* About */
 .about img {
-  width: 34rem;
+  width: 50rem;
 }

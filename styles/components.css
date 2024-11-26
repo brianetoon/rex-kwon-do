@@ -113,7 +113,7 @@
 /* Forms */
 .form {
   margin-inline: auto;
-  width: 34rem;
+  width: 40rem;
   max-width: 100%;
 }
 
@@ -181,10 +181,11 @@
 /* Tables */
 table {
   width: 100%;
-  max-width: 35rem;
+  max-width: 50rem;
   margin: auto;
   border-collapse: collapse;
   text-align: center;
+  font-size: var(--size-0);
 }
 th, td {
   padding: var(--size--2);

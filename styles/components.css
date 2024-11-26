@@ -94,6 +94,7 @@
   color: white;
   border-radius: 100rem;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -175,8 +176,6 @@
   transform: scale(1.2); 
   transition: transform 0.3s ease-in-out;
 }
-
-
 
 /* Tables */
 table {

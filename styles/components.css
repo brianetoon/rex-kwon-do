@@ -121,6 +121,14 @@
   display: block;
 }
 
+.form select {
+  -webkit-appearance: none; 
+  -moz-appearance: none;    
+  appearance: none;         
+  background: url('../assets/icons/down-caret.svg') no-repeat right 2rem center;
+  background-size: 2rem;
+}
+
 .form input,
 .form select,
 .form textarea {

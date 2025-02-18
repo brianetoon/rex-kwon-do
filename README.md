@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-The purpose of this project is to practice building a simple website using just HTML and CSS. The subject matter for the website could be anything of our choosing. I decided to create the website for the Rex Kwon Do Martial Arts Academy, after the character Rex from the move Napoleon Dynamite.
+The purpose of this project is to practice building a simple website using just HTML and CSS. The subject matter for the website could be anything of our choosing. I decided to create the website for the Rex Kwon Do Martial Arts Academy, after the character Rex from the movie Napoleon Dynamite.
 
 ## Project Requirements
 
